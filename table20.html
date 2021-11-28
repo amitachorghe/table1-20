@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>Table</title>
+
+    <style>
+      h1 {
+        text-align: center;
+        color: rgba(27, 165, 131, 0.685);
+        text-shadow: cadetblue;
+      }
+      body {
+        background-color: rgba(125, 209, 163, 0.534);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Table From 1 to 20</h1>
+
+    <script>
+      const number = parseInt(prompt("Enter an integer: "));
+
+      
+
+      for (let i = 1; i <= 20; i++)
+      {
+          for (var j =1;j<=10; j++)
+          {
+        
+        const result = j * number;
+        console.log(`${number} * ${j} = ${result}`);
+
+          }
+          
+        console.log(`${number} * ${i} = ${result}`);
+
+
+        
+      }
+    </script>
+  </body>
+</html>
